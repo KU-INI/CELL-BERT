@@ -26,7 +26,7 @@ python3 ./run_cell.py \
     --input_dir ./dataset/mrpc_train \
     --validation_dir ./dataset/mrpc_validation \
     --output_dir ./ \
-    --final_model ./GLUE_base_model/bert_mrpc \
+    --final_model ./YOUR_BASE_MODEL \
     --epochs 5 \
     --batch_size 16 \
     --use_gpu \
